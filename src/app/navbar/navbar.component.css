@@ -1,0 +1,7 @@
+.example-spacer {
+    flex: auto;
+}
+
+.menu-active{
+    background: rgba(0,0,0,.2);   
+}
