@@ -1,1 +1,17 @@
-<p>calculator works!</p>
+<button (click)="updateString($event)" value="0">0</button>
+<button (click)="updateString($event)" value="1">1</button>
+<button (click)="updateString($event)" value="2">2</button>
+<button (click)="updateString($event)" value="3">3</button>
+<button (click)="updateString($event)" value="4">4</button>
+<button (click)="updateString($event)" value="5">5</button>
+<button (click)="updateString($event)" value="6">6</button>
+<button (click)="updateString($event)" value="7">7</button>
+<button (click)="updateString($event)" value="8">8</button>
+<button (click)="updateString($event)" value="9">9</button>
+<button (click)="updateString($event)" value="+">+</button>
+<button (click)="updateString($event)" value="-">-</button>
+<button (click)="updateString($event)" value="*">*</button>
+<button (click)="updateString($event)" value="/">/</button>
+<button (click)="calculate()">=</button>
+<br>
+{{calcString}}

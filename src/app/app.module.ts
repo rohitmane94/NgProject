@@ -8,6 +8,7 @@ import { MaterialComponentsModule } from './material-components/material-compone
 import { NavbarComponent } from './navbar/navbar.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { HomeComponent } from './home/home.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialComponentsModule
+    MaterialComponentsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
